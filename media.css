@@ -1,0 +1,110 @@
+@media only screen and (min-width: 576px) and (max-width: 991.98px) {
+
+  .navbar-collapse {
+    margin-top: 12px;
+    padding-top: 10px;
+  }
+
+  .navbar-nav {
+    gap: 4px !important;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 6px 0;
+    font-size: 15px;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .navbar-toggler {
+    padding: 6px 9px;
+  }
+
+  .navbar-toggler i {
+    font-size: 24px;
+  }
+
+.hero-section {
+    min-height: 720px;
+  }
+   .carousel-image {
+    min-height: 720px;
+   }
+
+   .hero-content {
+    top: 50%;
+    left: 45px;
+    right: 45px;
+    transform: translateY(-50%);
+    max-width: 600px;
+  }
+  .hero-content h3 {
+    font-size: 22px;
+    line-height: 1.3;
+    margin-bottom: 12px;
+  }
+
+  .hero-content h1 {
+    font-size: 56px;
+    line-height: 1.12;
+    margin-bottom: 16px;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+}
+
+
+  @media only screen and (min-width: 200px) and (max-width: 575px) {
+  .carousel-image {
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-content {
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    transform: translateY(-50%);
+    max-width: 100%;
+    margin-top: 0px;
+  
+}
+.hero-section{
+    min-height: 650px;
+}
+.hero-content h1 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.12;
+   margin-bottom: 10px;
+   --animate-duration: 1.3s;
+}
+.hero-content h3{
+    font-size: 18px;
+   line-height: 1.3;
+   margin-top: 0px;
+    margin-bottom: 10px;
+    --animate-duration: 1.3s;
+}
+.hero-content p{
+    font-size: 12px;
+   line-height: 1.5;
+    margin-bottom: 10px;
+    font-weight: 300;
+     font-family: "Roboto", sans-serif;
+     letter-spacing: 0.03em;
+      --animate-duration: 1.3s;
+}
+}

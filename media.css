@@ -115,8 +115,8 @@
   .carousel-inner,
   .carousel-item,
   .carousel-image {
-    height: 530px !important;
-    min-height: 530px !important;
+    height: 500px !important;
+    min-height: 500px !important;
     width: 100vw !important;
     max-width: 100wv !important;
     margin-left: 0 !important;

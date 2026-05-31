@@ -68,7 +68,7 @@
   @media only screen and (min-width: 200px) and (max-width: 575px) {
 
   .carousel-image {
-    min-height: 540px;
+     height: 530px;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
@@ -84,9 +84,7 @@
     margin-top: 0px;
   
 }
-.hero-section{
-    min-height: 540px;
-}
+
 .hero-content h1 {
   font-size: 38px;
   font-weight: 700;
@@ -117,6 +115,8 @@
   .carousel-inner,
   .carousel-item,
   .carousel-image {
+    height: 530px !important;
+    min-height: 530px !important;
     width: 100vw !important;
     max-width: 100wv !important;
     margin-left: 0 !important;

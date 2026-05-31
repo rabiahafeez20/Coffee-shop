@@ -31,14 +31,14 @@
   }
 
 .hero-section {
-    min-height: 720px;
+    min-height: 700px;
   }
    .carousel-image {
-    min-height: 720px;
+    min-height: 700px;
    }
 
    .hero-content {
-    top: 50%;
+    top: 47%;
     left: 45px;
     right: 45px;
     transform: translateY(-50%);
@@ -53,11 +53,11 @@
   .hero-content h1 {
     font-size: 56px;
     line-height: 1.12;
-    margin-bottom: 16px;
+    margin-bottom: 22px;
   }
 
   .hero-content p {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.5;
     margin-bottom: 10px;
   }
@@ -65,15 +65,17 @@
 
 
   @media only screen and (min-width: 200px) and (max-width: 575px) {
+
   .carousel-image {
-    min-height: 650px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    min-height: 580px;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+  
   }
 
   .hero-content {
-    top: 50%;
+    top: 54%;
     left: 20px;
     right: 20px;
     transform: translateY(-50%);
@@ -82,13 +84,13 @@
   
 }
 .hero-section{
-    min-height: 650px;
+    min-height: 580px;
 }
 .hero-content h1 {
-  font-size: 26px;
+  font-size: 38px;
   font-weight: 700;
-  line-height: 1.12;
-   margin-bottom: 10px;
+  line-height: 1.3em;
+   margin-bottom: 20px;
    --animate-duration: 1.3s;
 }
 .hero-content h3{
@@ -99,12 +101,24 @@
     --animate-duration: 1.3s;
 }
 .hero-content p{
-    font-size: 12px;
+    font-size: 14px;
    line-height: 1.5;
-    margin-bottom: 10px;
+    margin-bottom: 24px;
     font-weight: 300;
      font-family: "Roboto", sans-serif;
      letter-spacing: 0.03em;
       --animate-duration: 1.3s;
 }
+
+  .hero-section,
+  #myslideshow,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-image {
+    width: 100vw !important;
+    max-width: 100wv !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
 }

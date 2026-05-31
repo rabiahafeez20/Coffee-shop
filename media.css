@@ -31,14 +31,14 @@
   }
 
 .hero-section {
-    min-height: 700px;
+    min-height: 650px;
   }
    .carousel-image {
-    min-height: 700px;
+    min-height: 650px;
    }
 
    .hero-content {
-    top: 47%;
+    top: 55%;
     left: 45px;
     right: 45px;
     transform: translateY(-50%);
@@ -59,14 +59,16 @@
   .hero-content p {
     font-size: 17px;
     line-height: 1.5;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
      padding-right: 50px;
   }
 }
 
 
   @media only screen and (min-width: 100px) and (max-width: 575px) {
-
+.nav-btn {
+    display: none;
+  }
   .carousel-image {
     background-size: cover !important;
     background-position: center center !important;
@@ -99,7 +101,7 @@
     --animate-duration: 1.3s;
 }
 .hero-content p{
-    font-size: 15px;
+    font-size: 14px;
    line-height: 1.5em;
     margin-bottom: 24px;
     padding-right: 0px;

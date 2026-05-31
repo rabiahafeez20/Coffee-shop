@@ -157,3 +157,21 @@ background-position: center;
       --animate-duration: 1.3s;
       padding-right: 165px;
 }
+
+.hero-btn{
+    background: #F9C06A;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 0.07em;
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 50px;
+    transition: 0.3s ease-in;
+    --animate-duration: 1.3s;
+}
+.hero-btn:hover{
+   background-color:#6f3727 ; 
+   color: #fff;
+}

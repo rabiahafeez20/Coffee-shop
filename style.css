@@ -156,4 +156,5 @@ background-position: center;
      font-family: "Roboto", sans-serif;
      letter-spacing: 0.03em;
       --animate-duration: 1.3s;
+      padding-right: 165px;
 }

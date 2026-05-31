@@ -65,10 +65,9 @@
 }
 
 
-  @media only screen and (min-width: 200px) and (max-width: 575px) {
+  @media only screen and (min-width: 100px) and (max-width: 575px) {
 
   .carousel-image {
-     height: 530px;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
@@ -100,10 +99,10 @@
     --animate-duration: 1.3s;
 }
 .hero-content p{
-    font-size: 16px;
+    font-size: 15px;
    line-height: 1.5em;
     margin-bottom: 24px;
-       padding-right: 50px;
+    padding-right: 0px;
     font-weight: 300;
      font-family: "Roboto", sans-serif;
      letter-spacing: 0.03em;
@@ -115,8 +114,7 @@
   .carousel-inner,
   .carousel-item,
   .carousel-image {
-    height: 500px !important;
-    min-height: 500px !important;
+    min-height: 550px !important;
     width: 100vw !important;
     max-width: 100wv !important;
     margin-left: 0 !important;

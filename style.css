@@ -127,14 +127,13 @@ background-position: center;
 
 .hero-content {
   position: absolute;
-  top: 48%;
+  top: 55%;
   left: 6%;
   transform: translateY(-50%);
   z-index: 3;
   color: #fff;
   max-width: 650px;
-  margin-top: 50px;
-  margin-bottom: 60px;
+  
 
   
 }

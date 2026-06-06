@@ -24,7 +24,7 @@ body {
  --animate-duration: 1.3s;
 }
 .bg-navbar.scrolled {
-  background-color: #3f271e;
+  background-color: #442808;
 }
 .nav-btn{
     background: #F9C06A;
@@ -344,6 +344,43 @@ width: 90%;
 
 }
 
+.feature-content-2 h3{
+      font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(96, 56, 9);
+    line-height: 1.3;
+    margin-bottom: 30px;
+  
+}
+.feature-content-2 p{
+    font-size: 20px;
+    text-align: center;
+   margin-bottom: 20px;
+   margin-top: 50px;
+    font-weight: 300;
+     font-family: "Roboto", sans-serif;
+     letter-spacing: 0.03em;
+     line-height:1.5em ;
+}
+.feature-2-btn{
+    background: #F9C06A;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 0.07em;
+    padding: 12px 40px;
+    position: relative;
+    border-radius: 50px;
+    transition: 0.3s ease-in;
+   
+}
+.feature-2-btn:hover{
+   background-color:#6f3727 ; 
+   color: #ffffff;
+
+}
 /* Product section */
 
 
@@ -447,4 +484,532 @@ span{
 .product-btn:hover{
    background-color:#6f3727 ; 
    color: #fff;
+} 
+
+
+
+
+
+/* Offer section */
+
+
+.offer-section {
+      position: relative;
+    height: 80vh;
+   
+      overflow: hidden;
+      background:
+        linear-gradient(rgba(92, 48, 10, 0.82), rgba(92, 48, 10, 0.82)),
+        url("images/coffee\ banner.jpg");
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 50px;
+    }
+
+    .offer-content {
+      position: relative;
+      z-index: 3;
+      padding-left: 48px;
+    }
+
+    .offer-content h2 {
+      font-size: 58px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: white;
+  
+    }
+
+    .offer-content p {
+      font-size: 20px;
+      margin-bottom: 20px;
+      font-weight: 300;
+     font-family: "Roboto", sans-serif;
+     color: white;
+     letter-spacing: 0.03em;
+      padding-right: 100px;
+    }
+
+    .offer-btn {
+    background: #F9C06A;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 0.07em;
+    padding: 12px 40px;
+    position: relative;
+    border-radius: 50px;
+    transition: 0.3s ease-in;
+   
+    }
+
+    .offer-btn:hover {
+        border: 1px solid #6f3727;
+        background-color:#ffffff ; 
+        color: #6f3727;
+        font-weight: 700;
+    }
+
+    .coffee-cup {
+      position: absolute;
+      right: 118px;
+      top: 42px;
+      width: 280px;
+      z-index: 4;
+    }
+
+    .coffee-beans {
+      position: absolute;
+      right: -15px;
+      bottom: -5px;
+      width: 400px;
+      height: auto;
+      z-index: 2;
+    }
+
+/* Testimonial section */
+
+.client-review-section {
+  padding: 70px 0 80px;
+  background: #ffffff;
 }
+
+.review-main-title {
+  font-family: "Caudex", serif;
+  font-size: 58px;
+  font-weight: 700;
+ color: rgb(96, 56, 9);
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.review-main-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+.review-card-row {
+  margin-top: 35px;
+}
+
+.review-card {
+  position: relative;
+  min-height: 295px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(96, 56, 9, 0.25) 0px 4px 8px -2px, rgba(96, 56, 9, 0.25) 0px 0px 0px 1px;
+  background: #ffffff;
+  transition: 0.3s ease;
+}
+.review-card:hover{
+transform: translateY(-12px) scale(1.03);
+     background-color: #fff8ef;
+;
+    box-shadow: rgba(96, 56, 9, 0.35) 0px 18px 35px -10px,
+                rgba(96, 56, 9, 0.25) 0px 0px 0px 1px;
+
+}
+
+.review-card::after {
+  content: "”";
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-family: "Caudex", serif;
+  font-size: 95px;
+  font-weight: 700;
+  color: #ddd8d6;
+  line-height: 1;
+}
+
+.review-client-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.review-card h3 {
+  font-family: "Caudex", serif;
+  font-size: 28px;
+  font-weight: 700;
+ color: rgb(96, 56, 9);
+  margin-bottom: 3px;
+}
+
+.review-card-top p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #3b2117;
+  margin-bottom: 0;
+}
+
+.review-stars {
+  font-size: 28px;
+  color: #ffb400;
+  letter-spacing: 0px;
+  margin-top: 32px;
+  margin-bottom: 25px;
+}
+
+.review-desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 0;
+  max-width: 470px;
+}
+
+
+/* Menu section */
+
+
+
+.menu-list-section {
+  position: relative;
+  padding: 75px 0 20px 0;
+  background: #ffffff;
+}
+ .menu-list-section::after {
+  content: "";
+   position: absolute;
+   right: auto;
+  left: -110px;
+  bottom: -120px;
+  top: auto;
+  width: 460px;
+  height:270px;
+  transform: scale(1, -1.5);
+  pointer-events: none;
+  background-image: url("images/coffee\ blast-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left bottom;
+  z-index: 1;
+} 
+
+
+.menu-list-title {
+  font-family: "Caudex", serif;
+  font-size: 58px;
+  font-weight: 700;
+  color: #603809;
+  margin-bottom: 10px;
+}
+
+.menu-list-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+.menu-list-wrapper {
+
+  margin: 75px auto 0;
+}
+
+.menu-item {
+  margin-bottom: 62px;
+  margin-right: 40px;
+}
+
+.menu-item-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 18px;
+}
+
+.menu-item-content {
+  width: 100%;
+}
+
+.menu-item-top {
+  width: 100%;
+}
+
+.menu-item-top h3 {
+  font-family: "Caudex", serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #2f1b14;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.menu-dots {
+  flex: 1;
+  border-bottom: 2px dashed #2f1b14;
+  margin: 0 14px;
+  transform: translateY(1px);
+}
+
+.menu-item-top strong {
+  font-family: "caudex", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #2f1b14;
+  white-space: nowrap;
+}
+
+.menu-item-content p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 6px 0 0;
+}
+
+.menu-list-btn {
+    background: #F9C06A;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 0.07em;
+    padding: 12px 40px;
+    position: relative;
+    border-radius: 50px;
+    transition: 0.3s ease-in;
+
+  
+}
+
+.menu-list-btn:hover {
+background-color:#6f3727 ; 
+   color: #fff;
+}
+
+
+    /* Newsletter & Footer section */
+
+
+    .subscribe-footer-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Newsletter Section */
+.newsletter-top-section {
+ height: 80vh;
+  margin: 0;
+  position: relative;
+  background:
+    linear-gradient(rgba(92, 48, 10, 0.82), rgba(92, 48, 10, 0.82)),
+    url("images/coffee banner.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.newsletter-box h2 {
+  font-size: 58px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.newsletter-box p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.newsletter-form {
+  width:600px;
+  height: 55px;
+  display: flex;
+  background: #ffffff;
+  border-radius: 1px;
+  overflow: hidden;
+}
+
+.newsletter-form input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0 16px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #6f3727;
+}
+
+.newsletter-form input::placeholder {
+  color: #c6a98d;
+}
+
+.newsletter-form button {
+  width: 120px;
+  border: none;
+  background: #F9C06A;
+  color: #4b240b;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "caudex", serif;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+/* Floating Cups Between Sections */
+.floating-cup {
+  position: absolute;
+  top: 150px;
+  width: 400px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.floating-cup-left {
+  left: -130px;
+}
+
+.floating-cup-right {
+  right: -130px;
+  transform: scaleX(-1);
+}
+
+/* Footer Section */
+.coffee-footer {
+  position: relative;
+  margin: 0;
+  min-height: 520px;
+  padding: 78px 0 35px;
+  background-color: #442808;
+  color: #ffffff;
+  overflow: hidden;
+  z-index: 2;
+  isolation: isolate;
+}
+
+.coffee-footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("images/footer\ image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  mix-blend-mode: overlay;
+  z-index: -1;
+}
+.footer-cont{
+    margin-top: 100px;
+}
+
+
+.footer-about {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.55;
+  color: #ffffff;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons a {
+  width: 18px;
+  height: 18px;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coffee-footer h4 {
+  font-family: "caudex", serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+  margin-bottom: 26px;
+}
+
+.coffee-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.coffee-footer ul li {
+  margin-bottom: 12px;
+}
+
+.coffee-footer ul li a,
+.contact-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-text {
+  line-height: 1.5;
+  margin-bottom: 9px;
+}
+
+
+/* Menu Page */
+
+/* Menu hero */
+.menu-hero{
+  width: 100%;
+  min-height: 450px;
+ margin-top: 0px;
+ margin-bottom: 60px;
+  position: relative;
+  background-image: url(images/menu-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu-hero h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.3;
+    margin-bottom: 25px;
+   --animate-duration: 1.3s;
+}
+
+.menu-hero p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  --animate-duration: 1.3s;
+
+}
+.menu-hero::after {
+  content: "";
+   position: absolute;
+   right: -100px;
+  left: auto;
+  bottom: -240px;
+  top: auto;
+  width: 460px;
+  height:270px;
+  transform: scale(-1, -1.5);
+  pointer-events: none;
+  background-image: url("images/coffee\ blast-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left bottom;
+  z-index: 1;
+} 

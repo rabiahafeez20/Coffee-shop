@@ -35,13 +35,16 @@ body {
     letter-spacing: 0.07em;
     padding: 10px 20px;
     position: relative;
+    border: 1px solid #F9C06A;
     border-radius: 50px;
-    transition: 0.3s ease-in;
+    transition: all 0.3s ease-in;
     --animate-duration: 1.3s;
 }
 .nav-btn:hover{
-   background-color:#6f3727 ; 
-   color: #fff;
+   border: 1px solid #ffffff;
+   color: #ffffff;
+   background-color: #00000000;
+  
 }
 .nav-item a{
     font-size: 16px;
@@ -50,7 +53,7 @@ body {
     transition: 0.3s ease;
 }
 .nav-item a:hover{
-      color: white;
+      color: #F9C06A;
 
 }
 .navbar-toggler{
@@ -177,6 +180,7 @@ background-position: center;
 .hero-btn:hover{
    background-color:#6f3727 ; 
    color: #fff;
+   
 }
 
 /* discover section */
@@ -252,6 +256,7 @@ width: 90%;
 .discover-btn:hover{
    background-color:#6f3727 ; 
    color: #fff;
+  
 }
 /* Feature section */
 
@@ -379,6 +384,7 @@ width: 90%;
 .feature-2-btn:hover{
    background-color:#6f3727 ; 
    color: #ffffff;
+    
 
 }
 /* Product section */
@@ -539,16 +545,18 @@ span{
     letter-spacing: 0.07em;
     padding: 12px 40px;
     position: relative;
+    border: 1px solid #F9C06A;
     border-radius: 50px;
-    transition: 0.3s ease-in;
+    transition: all 0.3s ease-in !important;
    
     }
 
     .offer-btn:hover {
-        border: 1px solid #6f3727;
-        background-color:#ffffff ; 
-        color: #6f3727;
-        font-weight: 700;
+      border: 1px solid #ffffff;
+      background-color:#00000000 ; 
+      color: #ffffff;
+           
+;
     }
 
     .coffee-cup {
@@ -775,7 +783,7 @@ transform: translateY(-12px) scale(1.03);
     padding: 12px 40px;
     position: relative;
     border-radius: 50px;
-    transition: 0.3s ease-in;
+     transition: 0.3s ease-in !important;
 
   
 }
@@ -783,6 +791,7 @@ transform: translateY(-12px) scale(1.03);
 .menu-list-btn:hover {
 background-color:#6f3727 ; 
    color: #fff;
+  
 }
 
 
@@ -860,18 +869,18 @@ background-color:#6f3727 ;
 /* Floating Cups Between Sections */
 .floating-cup {
   position: absolute;
-  top: 150px;
+  top: 240px;
   width: 400px;
   z-index: 10;
   pointer-events: none;
 }
 
 .floating-cup-left {
-  left: -130px;
+  left: -150px;
 }
 
 .floating-cup-right {
-  right: -130px;
+  right: -150px;
   transform: scaleX(-1);
 }
 
